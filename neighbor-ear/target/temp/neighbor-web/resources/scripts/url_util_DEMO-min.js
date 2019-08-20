@@ -1,0 +1,1 @@
+var isInIFrame=(window.location!=window.parent.location),name_url,full_url;if(isInIFrame==true){}else{name_url="neighbor-demo";full_url=location.href};

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="neighbor">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
+        <dependent-module archiveName="neighbor-service-1.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/neighbor-service/neighbor-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="neighbor-repository-1.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/neighbor-repository/neighbor-repository">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="neighbor-pojo-1.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/neighbor-pojo/neighbor-pojo">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="neighbor-util-1.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/neighbor-util/neighbor-util">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="neighbor"/>
+        <property name="java-output-path" value="/neighbor-web/target/classes"/>
+        <property name="component.exclusion.patterns" value="resources/css/primefaces-bootstrap/theme-nobg.css,resources/css/primefaces-ui-darkness/theme.css,resources/css/corev4.css,resources/css/disponivel-nos-planos.css,resources/css/estilos_002.css,resources/css/forms.css,resources/css/fsLayout.css,resources/css/Menu.css,resources/css/morador.css,resources/css/search.css,resources/css/template-azul-LPN.css,resources/css/terranova.css,resources/css/usuario.css,resources/scripts/erroJsf.js,resources/scripts/geral.js,resources/scripts/jquery-animate-css-rotate-scale.js,resources/scripts/jquery-css-transform.js,resources/scripts/url_util.js,resources/scripts/url_util_DEMO.js,resources/scripts/validacao.js"/>
+    </wb-module>
+</project-modules>
